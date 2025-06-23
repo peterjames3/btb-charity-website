@@ -3,14 +3,13 @@
 import TeamCard from "@/app/components/ui/team-card";
 import ActivityCard from "@/app/components/ui/activity-card";
 
-
-interface TeamCardProps {
-    image: string;
-    name: string;
-    email: string;
-    phone: string;
-}
-const TeamPage: React.FC<TeamCardProps> = () => {
+// interface TeamCardProps {
+//     image: string;
+//     name: string;
+//     email: string;
+//     phone: string;
+// }
+export default function TeamPage() {
   const committeeMembers = [
     {
       image: "/BTB-Chairman.jpg",
@@ -75,7 +74,6 @@ const TeamPage: React.FC<TeamCardProps> = () => {
     },
     // Add other activities similarly
   ];
-
   return (
     <div className="py-8 px-4 container mx-auto">
       <h1 className="text-3xl font-bold mb-8 text-center">Our Team</h1>
@@ -102,5 +100,4 @@ const TeamPage: React.FC<TeamCardProps> = () => {
       </div>
     </div>
   );
-};
-export default TeamPage;
+}
