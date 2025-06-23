@@ -45,7 +45,7 @@ const ContactForm = () => {
             name="message"
             required
             placeholder="Your Message"
-            rows="4"
+          
             className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-300"
           />
         </div>

@@ -1,7 +1,5 @@
 // app/home/page.js
 
-import Banner from "./components/Banner";
-
 const HomePage = () => {
   return (
     <div className="relative w-full h-64 md:h-96">
